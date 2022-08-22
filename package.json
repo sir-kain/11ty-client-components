@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "^3.0.0",
-    "@11ty/is-land": "^1.0.0",
-    "@lit-labs/eleventy-plugin-lit": "^0.2.3"
+    "@11ty/is-land": "^1.0.0"
   }
 }
