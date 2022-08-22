@@ -5,7 +5,7 @@ title: Home
 
 <header>
   <span>Total</span>
-  <is-land import="./js/counter.js">
+  <is-land import="./js/components/counter.js">
     <cc-counter></cc-counter>
   </is-land>
 </header>
@@ -14,7 +14,7 @@ title: Home
     <nav>
       <ul id="variants" class="box-variants">
         {% for item in variants %}
-          <is-land import="./js/variant.js">
+          <is-land import="./js/components/variant.js">
             <cc-variant variant="{{item.variant | dump}}" flavors="{{item.flavors | dump}}"></cc-variant>
           </is-land>
           {# <li>

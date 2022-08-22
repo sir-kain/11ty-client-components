@@ -49,7 +49,7 @@ window.addEventListener("variantSelected", (e) => {
     const $ccFlavor = createNode("cc-flavor");
     $ccFlavor.variant = variant;
     $ccFlavor.flavor = flavor;
-    $isLand.setAttribute("import", "./js/flavor.js");
+    $isLand.setAttribute("import", "./js/components/flavor.js");
     append($li, $ccFlavor);
     append($isLand, $li);
     append($ul, $isLand);
@@ -64,7 +64,7 @@ window.addEventListener("flavorSelected", (e) => {
   const $ccCart = createNode("cc-cart");
   $ccCart.variant = variant;
   $ccCart.flavor = flavor;
-  $isLand.setAttribute("import", "./js/cart.js");
+  $isLand.setAttribute("import", "./js/components/cart.js");
   append($li, $ccCart);
   append($isLand, $li);
   append($ul, $isLand);
